@@ -1,0 +1,181 @@
+:root{
+    --main-haeding-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --logo-color:#000000;
+    --heading-color:#212121;
+    --text-color:#757575;
+    --block-color:#F5F4FA;
+    --footer-color:#2F303A;
+    --footer-contact:rgba(255, 255, 255, 0.6);
+}
+/* общие классы*/
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    letter-spacing: 0.03em;
+}
+.list{
+    list-style: none;
+}
+.section-heading,
+.qualities-heading,
+.portfolio-heading,
+.card-heading,
+.navi .navi-list{
+    color: var(--heading-color);
+}
+/* начало */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.navi .logo{
+    color: var(--logo-color);
+}
+.logo .accent{
+    color:var(--accent-color);
+}
+/* nav */
+.navi{
+    letter-spacing: 0.02em;
+}
+.navi .navi-list{
+    
+    /* font-weight: 500; */
+    line-height: 1.14;
+    text-decoration: none;
+}
+.navi .navi-list:hover, 
+.navi .navi-list:focus{
+    color: var(--accent-color);
+}
+.contact-us{
+    color: var(--text-color);
+    text-decoration: none;
+    
+}
+.contact-us:focus,
+.contact-us:hover{
+    color: var(--accent-color);
+}
+.navi .on-page{
+    color: var(--accent-color);
+}
+.contact-us,
+.navi{
+    font-size: 14px;
+    font-weight: 500;
+}
+/* hero */
+.hero{
+    background-color: var(--footer-color);
+    letter-spacing: 0.06em;
+}
+.hero .hero-head{
+    color: var(--main-haeding-color);
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 2;
+    text-transform: uppercase;
+    
+}
+.hero .order{
+    color: var(--main-haeding-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2.15;
+    cursor: pointer;
+    
+}
+/* основные качества */
+.display{
+    display: none;
+
+}
+.qualities .qualities-heading{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; 
+}
+.qualities .qualities-text{
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 1.7;
+
+}
+
+/* Чем мы занимаемся */
+.section-heading {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.16;
+}
+/* наша команда */
+.team{
+background-color: var(--block-color);
+}
+.team-card{
+    text-align: center;
+}
+.team-card .card-heading{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.team-card .card-text{
+    font-weight: 400;
+    font-size: 16px;
+
+}
+/* footer */
+footer{
+    background-color: var(--footer-color);
+}
+.adress{
+    font-style: normal;
+}
+.footer-contact{
+    font-weight: 400;
+}
+.footer-contact .logo{
+    color: var(--main-haeding-color);
+    
+}
+.footer-contact .maps{
+    color: var(--main-haeding-color);
+    text-decoration: none;
+}
+.footer-contact .contact-us{
+    color: var(--footer-contact);
+    font-weight: 400;
+}
+/* портфолио */
+.portfolio .filter-buttun{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    cursor: pointer;
+}
+.portfolio .filter-buttun:hover,
+.portfolio .filter-buttun:focus{
+    color: var(--main-haeding-color);
+    background-color: var(--accent-color);
+}
+.portfolio .portfolio-heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.portfolio .portfolio-text{
+    font-size: 16px;
+    line-height: 1.88;
+}
