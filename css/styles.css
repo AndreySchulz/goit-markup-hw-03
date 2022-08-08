@@ -153,8 +153,11 @@ p{
 }
 .qualities .qualities-box{
     display: flex;
+    justify-content: space-between;
 }
 .qualities-box .qualities-heading{
+    margin-bottom: 10px;
+
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase; 
@@ -162,10 +165,12 @@ p{
 .qualities-box .qualities-text{
     font-weight: 400;
     font-size: 14px;
-    font-weight: 1.7;
-
+    font-weight: 1.71;
+    
 }
-
+.qualities-box > .item{
+    width: 270px;
+}
 /* Чем мы занимаемся */
 .section-heading {
     font-weight: 700;
