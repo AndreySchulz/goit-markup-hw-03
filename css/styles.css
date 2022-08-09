@@ -307,6 +307,7 @@ footer{
 .portfolio-box .box-description{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 }
 .box-description .portfolio-heading{
     font-weight: 700;
