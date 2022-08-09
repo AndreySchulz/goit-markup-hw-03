@@ -296,11 +296,14 @@ footer{
 }
 .portfolio-box{
     width: 370px;
-    border: 1px solid #EEEEEE;
     margin: 15px;
+}
+.portfolio-box .portfolio-img{
+    display: block;
 }
 .portfolio-box .box-description{
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 .box-description .portfolio-heading{
     font-weight: 700;
