@@ -116,6 +116,9 @@ header{
 .header-contact > .item{
     margin-right: 50px;
 }
+.header-contact > .item:last-child{
+    margin-right: 0px;
+}
 
 /* hero */
 .hero{
