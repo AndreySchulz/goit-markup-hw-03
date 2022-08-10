@@ -44,6 +44,10 @@ p{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.flex-box {
+    display: flex;
+
+}
 /* начало */
 header{
     border-bottom: 1px solid #E5E5E5;
@@ -160,14 +164,13 @@ header{
     cursor: pointer;
     
 }
+.no-padding{
+    padding-bottom: 0px;
+}
 /* основные качества */
 .display{
     display: none;
 
-}
-.qualities .qualities-box{
-    display: flex;
-    justify-content: space-between;
 }
 .qualities-heading{
     margin-bottom: 10px;
@@ -185,12 +188,12 @@ header{
 }
 .qualities-box > .item{
     width: 270px;
+    margin-right: 30px;
+}
+.qualities-box>.item:last-child{
+    margin-right: 0px;;
 }
 /* Чем мы занимаемся */
-.flex-box{
-    display: flex;
-    justify-content: space-between;
-}
 
 .section-heading {
     margin-bottom: 50px;
@@ -200,17 +203,26 @@ header{
     text-align: center;
     line-height: 1.16;
 }
+.ocupation-box > .item{
+    margin-right: 30px;
+}
+.ocupation-box>.item:last-child{
+    margin-right: 0px;
+}
 /* наша команда */
 .team{
     background-color: var(--block-color);
 }
 .team-card{
-    width: 270px;
+    margin-right: 30px;
 
     background-color: var(--main-haeding-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+}
+.team-card:last-child{
+    margin-right: 0px;
 }
 .team-description{
     padding: 30px 0;
